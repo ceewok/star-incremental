@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id = "gameContainer">
+            <canvas id = "canvas"></canvas>
+
+            <div id = "shopContainer" class = "hidden">
+                <canvas id = "shopCanvas"></canvas>
+                <p id = "pointsDisplay"></p>
+                <button onmouseenter="setHoverText('2x multiplier')" onclick="shopHandler('2x multiplier')" class = "shopButton"></button>
+                <div id="cursor-tooltip" class = "tooltip-box">Helloertyujiuhgfdfghytrfg</div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+        <script src="animations.js"></script>
+    </body>
+</html>
